@@ -4,13 +4,16 @@ cd ~/Documents/Repos/Java_JavaScript_Algos/Java/src/com/zun
 
 java Main.java
 
-echo "\n================================================"
-echo "================================================"
-echo "================================================"
-echo "================================================"
+echo "\n"
 
 cd ~/Documents/Repos/Java_JavaScript_Algos/JavaScript
 
-echo "\nJavaScript Output:\n"
+echo "JavaScript Output:\n"
 
-yarn dev
+tsc index.ts
+
+node index.js
+
+echo "\n"
+
+
