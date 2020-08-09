@@ -1,0 +1,16 @@
+echo "Java Output:\n"
+
+cd ~/Documents/Repos/Java_JavaScript_Algos/Java/src/com/zun
+
+java Main.java
+
+echo "\n================================================"
+echo "================================================"
+echo "================================================"
+echo "================================================"
+
+cd ~/Documents/Repos/Java_JavaScript_Algos/JavaScript
+
+echo "\nJavaScript Output:\n"
+
+yarn dev
