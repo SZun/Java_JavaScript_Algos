@@ -19,20 +19,22 @@ public class Main {
     private static void revArr(Object[] arr) {
         List<Object> arrList = Arrays.asList(arr);
         Collections.reverse(arrList);
-        arr = arrList.toArray();
-        print(arr);
+        print(arrList.toArray());
    }
 
    private static void print(Object[] arr) {
        System.out.print("[");
+
        for(int i = 0; i < arr.length; i++){
+
            String item = arr[i].toString();
-           if(arr[i] instanceof String) {
-               item = "'" + arr[i].toString() + "'";
-           }
-           String prompt = i != arr.length - 1 ? " " +  item + "," : " " + item + " ";
-           System.out.print(prompt);
+
+           if(arr[i] instanceof String) item = "'" + arr[i].toString() + "'";
+
+           System.out.print(i != arr.length - 1 ? " " +  item + "," : " " + item + " ");
+
        }
+
        System.out.print("]");
    }
 }
