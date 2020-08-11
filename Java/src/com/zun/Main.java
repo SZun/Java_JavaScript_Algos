@@ -29,7 +29,7 @@ public class Main {
 
            String item = arr[i].toString();
 
-           if(arr[i] instanceof String) item = "'" + arr[i].toString() + "'";
+           if(arr[i] instanceof String) item = "'" + item + "'";
 
            System.out.print(i != arr.length - 1 ? " " +  item + "," : " " + item + " ");
 
